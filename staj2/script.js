@@ -7,8 +7,10 @@ signUpBtnLink.addEventListener('click', () => {
     if(wrapper_sign_up.classList.contains('active'))
     {
         wrapper_sign_in.classList.toggle('active');
+        wrapper_sign_up.classList.toggle('hidden');
     } else {
         wrapper_sign_up.classList.toggle('active');
+        wrapper_sign_in.classList.toggle('hidden');
     }
 
 });
